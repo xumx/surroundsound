@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E4461A21B643C57001EE4E7 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4461841B643C57001EE4E7 /* AsyncButton.swift */; };
+		2E4461A31B643C57001EE4E7 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4461851B643C57001EE4E7 /* AsyncImageView.swift */; };
+		2E4461A41B643C57001EE4E7 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4461861B643C57001EE4E7 /* AutoTextView.swift */; };
+		2E4461A51B643C57001EE4E7 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4461871B643C57001EE4E7 /* BlurView.swift */; };
+		2E4461A61B643C57001EE4E7 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4461881B643C57001EE4E7 /* DesignableButton.swift */; };
+		2E4461A71B643C57001EE4E7 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4461891B643C57001EE4E7 /* DesignableImageView.swift */; };
+		2E4461A81B643C57001EE4E7 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44618A1B643C57001EE4E7 /* DesignableLabel.swift */; };
+		2E4461A91B643C57001EE4E7 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44618B1B643C57001EE4E7 /* DesignableTabBarController.swift */; };
+		2E4461AA1B643C57001EE4E7 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44618C1B643C57001EE4E7 /* DesignableTextField.swift */; };
+		2E4461AB1B643C57001EE4E7 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44618D1B643C57001EE4E7 /* DesignableTextView.swift */; };
+		2E4461AC1B643C57001EE4E7 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44618E1B643C57001EE4E7 /* DesignableView.swift */; };
+		2E4461AD1B643C57001EE4E7 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44618F1B643C57001EE4E7 /* ImageLoader.swift */; };
+		2E4461AE1B643C57001EE4E7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E4461901B643C57001EE4E7 /* Info.plist */; };
+		2E4461AF1B643C57001EE4E7 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4461911B643C57001EE4E7 /* KeyboardLayoutConstraint.swift */; };
+		2E4461B01B643C57001EE4E7 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4461921B643C57001EE4E7 /* LoadingView.swift */; };
+		2E4461B11B643C57001EE4E7 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E4461931B643C57001EE4E7 /* LoadingView.xib */; };
+		2E4461B21B643C57001EE4E7 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4461941B643C57001EE4E7 /* Misc.swift */; };
+		2E4461B31B643C57001EE4E7 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4461951B643C57001EE4E7 /* SoundPlayer.swift */; };
+		2E4461B41B643C57001EE4E7 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4461971B643C57001EE4E7 /* Spring.swift */; };
+		2E4461B51B643C57001EE4E7 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4461981B643C57001EE4E7 /* SpringAnimation.swift */; };
+		2E4461B61B643C57001EE4E7 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4461991B643C57001EE4E7 /* SpringButton.swift */; };
+		2E4461B71B643C57001EE4E7 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44619A1B643C57001EE4E7 /* SpringImageView.swift */; };
+		2E4461B81B643C57001EE4E7 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44619B1B643C57001EE4E7 /* SpringLabel.swift */; };
+		2E4461B91B643C57001EE4E7 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44619C1B643C57001EE4E7 /* SpringTextField.swift */; };
+		2E4461BA1B643C57001EE4E7 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44619D1B643C57001EE4E7 /* SpringTextView.swift */; };
+		2E4461BB1B643C57001EE4E7 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44619E1B643C57001EE4E7 /* SpringView.swift */; };
+		2E4461BC1B643C57001EE4E7 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44619F1B643C57001EE4E7 /* TransitionManager.swift */; };
+		2E4461BD1B643C57001EE4E7 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4461A01B643C57001EE4E7 /* TransitionZoom.swift */; };
+		2E4461BE1B643C57001EE4E7 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4461A11B643C57001EE4E7 /* UnwindSegue.swift */; };
+		2EB120E01B63EF6700FEB789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB120DF1B63EF6700FEB789 /* AppDelegate.swift */; };
+		2EB120E21B63EF6700FEB789 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB120E11B63EF6700FEB789 /* ViewController.swift */; };
+		2EB120E51B63EF6700FEB789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB120E31B63EF6700FEB789 /* Main.storyboard */; };
+		2EB120E71B63EF6700FEB789 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB120E61B63EF6700FEB789 /* Images.xcassets */; };
+		2EB120EA1B63EF6700FEB789 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EB120E81B63EF6700FEB789 /* LaunchScreen.xib */; };
+		2EB120F61B63EF6700FEB789 /* surround_soundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB120F51B63EF6700FEB789 /* surround_soundTests.swift */; };
+		2EDC01A31B6429E400537820 /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC01A21B6429E400537820 /* ActivitiesViewController.swift */; };
+		2EDC01A51B642C8900537820 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC01A41B642C8900537820 /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EB120F01B63EF6700FEB789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EB120D21B63EF6700FEB789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EB120D91B63EF6700FEB789;
+			remoteInfo = "surround sound";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E4461841B643C57001EE4E7 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		2E4461851B643C57001EE4E7 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		2E4461861B643C57001EE4E7 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		2E4461871B643C57001EE4E7 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		2E4461881B643C57001EE4E7 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		2E4461891B643C57001EE4E7 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		2E44618A1B643C57001EE4E7 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		2E44618B1B643C57001EE4E7 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		2E44618C1B643C57001EE4E7 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		2E44618D1B643C57001EE4E7 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		2E44618E1B643C57001EE4E7 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		2E44618F1B643C57001EE4E7 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		2E4461901B643C57001EE4E7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4461911B643C57001EE4E7 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		2E4461921B643C57001EE4E7 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		2E4461931B643C57001EE4E7 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		2E4461941B643C57001EE4E7 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		2E4461951B643C57001EE4E7 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		2E4461961B643C57001EE4E7 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		2E4461971B643C57001EE4E7 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		2E4461981B643C57001EE4E7 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		2E4461991B643C57001EE4E7 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		2E44619A1B643C57001EE4E7 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		2E44619B1B643C57001EE4E7 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		2E44619C1B643C57001EE4E7 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		2E44619D1B643C57001EE4E7 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		2E44619E1B643C57001EE4E7 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		2E44619F1B643C57001EE4E7 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		2E4461A01B643C57001EE4E7 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		2E4461A11B643C57001EE4E7 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		2E4461BF1B643D69001EE4E7 /* surround sound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "surround sound.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4461C01B643D69001EE4E7 /* surround soundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "surround soundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB120DE1B63EF6700FEB789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB120DF1B63EF6700FEB789 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EB120E11B63EF6700FEB789 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EB120E41B63EF6700FEB789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EB120E61B63EF6700FEB789 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2EB120E91B63EF6700FEB789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2EB120F41B63EF6700FEB789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB120F51B63EF6700FEB789 /* surround_soundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surround_soundTests.swift; sourceTree = "<group>"; };
+		2EDC01A21B6429E400537820 /* ActivitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		2EDC01A41B642C8900537820 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EB120D71B63EF6700FEB789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB120EC1B63EF6700FEB789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E4461831B643C57001EE4E7 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				2E4461841B643C57001EE4E7 /* AsyncButton.swift */,
+				2E4461851B643C57001EE4E7 /* AsyncImageView.swift */,
+				2E4461861B643C57001EE4E7 /* AutoTextView.swift */,
+				2E4461871B643C57001EE4E7 /* BlurView.swift */,
+				2E4461881B643C57001EE4E7 /* DesignableButton.swift */,
+				2E4461891B643C57001EE4E7 /* DesignableImageView.swift */,
+				2E44618A1B643C57001EE4E7 /* DesignableLabel.swift */,
+				2E44618B1B643C57001EE4E7 /* DesignableTabBarController.swift */,
+				2E44618C1B643C57001EE4E7 /* DesignableTextField.swift */,
+				2E44618D1B643C57001EE4E7 /* DesignableTextView.swift */,
+				2E44618E1B643C57001EE4E7 /* DesignableView.swift */,
+				2E44618F1B643C57001EE4E7 /* ImageLoader.swift */,
+				2E4461901B643C57001EE4E7 /* Info.plist */,
+				2E4461911B643C57001EE4E7 /* KeyboardLayoutConstraint.swift */,
+				2E4461921B643C57001EE4E7 /* LoadingView.swift */,
+				2E4461931B643C57001EE4E7 /* LoadingView.xib */,
+				2E4461941B643C57001EE4E7 /* Misc.swift */,
+				2E4461951B643C57001EE4E7 /* SoundPlayer.swift */,
+				2E4461961B643C57001EE4E7 /* Spring.h */,
+				2E4461971B643C57001EE4E7 /* Spring.swift */,
+				2E4461981B643C57001EE4E7 /* SpringAnimation.swift */,
+				2E4461991B643C57001EE4E7 /* SpringButton.swift */,
+				2E44619A1B643C57001EE4E7 /* SpringImageView.swift */,
+				2E44619B1B643C57001EE4E7 /* SpringLabel.swift */,
+				2E44619C1B643C57001EE4E7 /* SpringTextField.swift */,
+				2E44619D1B643C57001EE4E7 /* SpringTextView.swift */,
+				2E44619E1B643C57001EE4E7 /* SpringView.swift */,
+				2E44619F1B643C57001EE4E7 /* TransitionManager.swift */,
+				2E4461A01B643C57001EE4E7 /* TransitionZoom.swift */,
+				2E4461A11B643C57001EE4E7 /* UnwindSegue.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		2EB120D11B63EF6700FEB789 = {
+			isa = PBXGroup;
+			children = (
+				2E4461831B643C57001EE4E7 /* Spring */,
+				2EB120DC1B63EF6700FEB789 /* surround sound */,
+				2EB120F21B63EF6700FEB789 /* surround soundTests */,
+				2E4461BF1B643D69001EE4E7 /* surround sound.app */,
+				2E4461C01B643D69001EE4E7 /* surround soundTests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		2EB120DC1B63EF6700FEB789 /* surround sound */ = {
+			isa = PBXGroup;
+			children = (
+				2EB120DF1B63EF6700FEB789 /* AppDelegate.swift */,
+				2EB120E11B63EF6700FEB789 /* ViewController.swift */,
+				2EB120E31B63EF6700FEB789 /* Main.storyboard */,
+				2EB120E61B63EF6700FEB789 /* Images.xcassets */,
+				2EB120E81B63EF6700FEB789 /* LaunchScreen.xib */,
+				2EB120DD1B63EF6700FEB789 /* Supporting Files */,
+				2EDC01A21B6429E400537820 /* ActivitiesViewController.swift */,
+				2EDC01A41B642C8900537820 /* MapViewController.swift */,
+			);
+			path = "surround sound";
+			sourceTree = "<group>";
+		};
+		2EB120DD1B63EF6700FEB789 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EB120DE1B63EF6700FEB789 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EB120F21B63EF6700FEB789 /* surround soundTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EB120F51B63EF6700FEB789 /* surround_soundTests.swift */,
+				2EB120F31B63EF6700FEB789 /* Supporting Files */,
+			);
+			path = "surround soundTests";
+			sourceTree = "<group>";
+		};
+		2EB120F31B63EF6700FEB789 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EB120F41B63EF6700FEB789 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EB120D91B63EF6700FEB789 /* surround sound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB120F91B63EF6700FEB789 /* Build configuration list for PBXNativeTarget "surround sound" */;
+			buildPhases = (
+				2EB120D61B63EF6700FEB789 /* Sources */,
+				2EB120D71B63EF6700FEB789 /* Frameworks */,
+				2EB120D81B63EF6700FEB789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "surround sound";
+			productName = "surround sound";
+			productReference = 2E4461BF1B643D69001EE4E7 /* surround sound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EB120EE1B63EF6700FEB789 /* surround soundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB120FC1B63EF6700FEB789 /* Build configuration list for PBXNativeTarget "surround soundTests" */;
+			buildPhases = (
+				2EB120EB1B63EF6700FEB789 /* Sources */,
+				2EB120EC1B63EF6700FEB789 /* Frameworks */,
+				2EB120ED1B63EF6700FEB789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EB120F11B63EF6700FEB789 /* PBXTargetDependency */,
+			);
+			name = "surround soundTests";
+			productName = "surround soundTests";
+			productReference = 2E4461C01B643D69001EE4E7 /* surround soundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EB120D21B63EF6700FEB789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = GraphPaper;
+				TargetAttributes = {
+					2EB120D91B63EF6700FEB789 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = G4GZX9J57E;
+					};
+					2EB120EE1B63EF6700FEB789 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2EB120D91B63EF6700FEB789;
+					};
+				};
+			};
+			buildConfigurationList = 2EB120D51B63EF6700FEB789 /* Build configuration list for PBXProject "surround sound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EB120D11B63EF6700FEB789;
+			productRefGroup = 2EB120D11B63EF6700FEB789;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EB120D91B63EF6700FEB789 /* surround sound */,
+				2EB120EE1B63EF6700FEB789 /* surround soundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EB120D81B63EF6700FEB789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4461AE1B643C57001EE4E7 /* Info.plist in Resources */,
+				2EB120E51B63EF6700FEB789 /* Main.storyboard in Resources */,
+				2EB120EA1B63EF6700FEB789 /* LaunchScreen.xib in Resources */,
+				2EB120E71B63EF6700FEB789 /* Images.xcassets in Resources */,
+				2E4461B11B643C57001EE4E7 /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB120ED1B63EF6700FEB789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EB120D61B63EF6700FEB789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB120E21B63EF6700FEB789 /* ViewController.swift in Sources */,
+				2E4461A51B643C57001EE4E7 /* BlurView.swift in Sources */,
+				2E4461AF1B643C57001EE4E7 /* KeyboardLayoutConstraint.swift in Sources */,
+				2E4461BA1B643C57001EE4E7 /* SpringTextView.swift in Sources */,
+				2E4461A21B643C57001EE4E7 /* AsyncButton.swift in Sources */,
+				2E4461AB1B643C57001EE4E7 /* DesignableTextView.swift in Sources */,
+				2E4461BE1B643C57001EE4E7 /* UnwindSegue.swift in Sources */,
+				2E4461B81B643C57001EE4E7 /* SpringLabel.swift in Sources */,
+				2EB120E01B63EF6700FEB789 /* AppDelegate.swift in Sources */,
+				2E4461A41B643C57001EE4E7 /* AutoTextView.swift in Sources */,
+				2E4461B51B643C57001EE4E7 /* SpringAnimation.swift in Sources */,
+				2E4461AD1B643C57001EE4E7 /* ImageLoader.swift in Sources */,
+				2E4461B91B643C57001EE4E7 /* SpringTextField.swift in Sources */,
+				2EDC01A51B642C8900537820 /* MapViewController.swift in Sources */,
+				2E4461A71B643C57001EE4E7 /* DesignableImageView.swift in Sources */,
+				2E4461B31B643C57001EE4E7 /* SoundPlayer.swift in Sources */,
+				2E4461B21B643C57001EE4E7 /* Misc.swift in Sources */,
+				2E4461AC1B643C57001EE4E7 /* DesignableView.swift in Sources */,
+				2E4461BB1B643C57001EE4E7 /* SpringView.swift in Sources */,
+				2EDC01A31B6429E400537820 /* ActivitiesViewController.swift in Sources */,
+				2E4461A31B643C57001EE4E7 /* AsyncImageView.swift in Sources */,
+				2E4461A61B643C57001EE4E7 /* DesignableButton.swift in Sources */,
+				2E4461BD1B643C57001EE4E7 /* TransitionZoom.swift in Sources */,
+				2E4461B71B643C57001EE4E7 /* SpringImageView.swift in Sources */,
+				2E4461B61B643C57001EE4E7 /* SpringButton.swift in Sources */,
+				2E4461A91B643C57001EE4E7 /* DesignableTabBarController.swift in Sources */,
+				2E4461A81B643C57001EE4E7 /* DesignableLabel.swift in Sources */,
+				2E4461BC1B643C57001EE4E7 /* TransitionManager.swift in Sources */,
+				2E4461AA1B643C57001EE4E7 /* DesignableTextField.swift in Sources */,
+				2E4461B01B643C57001EE4E7 /* LoadingView.swift in Sources */,
+				2E4461B41B643C57001EE4E7 /* Spring.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB120EB1B63EF6700FEB789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB120F61B63EF6700FEB789 /* surround_soundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EB120F11B63EF6700FEB789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EB120D91B63EF6700FEB789 /* surround sound */;
+			targetProxy = 2EB120F01B63EF6700FEB789 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EB120E31B63EF6700FEB789 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EB120E41B63EF6700FEB789 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EB120E81B63EF6700FEB789 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EB120E91B63EF6700FEB789 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EB120F71B63EF6700FEB789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EB120F81B63EF6700FEB789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EB120FA1B63EF6700FEB789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "surround sound/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "surround sound";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Debug;
+		};
+		2EB120FB1B63EF6700FEB789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "surround sound/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "surround sound";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		2EB120FD1B63EF6700FEB789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "surround soundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "surround soundTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/surround sound.app/surround sound";
+			};
+			name = Debug;
+		};
+		2EB120FE1B63EF6700FEB789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "surround soundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "surround soundTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/surround sound.app/surround sound";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EB120D51B63EF6700FEB789 /* Build configuration list for PBXProject "surround sound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB120F71B63EF6700FEB789 /* Debug */,
+				2EB120F81B63EF6700FEB789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB120F91B63EF6700FEB789 /* Build configuration list for PBXNativeTarget "surround sound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB120FA1B63EF6700FEB789 /* Debug */,
+				2EB120FB1B63EF6700FEB789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB120FC1B63EF6700FEB789 /* Build configuration list for PBXNativeTarget "surround soundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB120FD1B63EF6700FEB789 /* Debug */,
+				2EB120FE1B63EF6700FEB789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EB120D21B63EF6700FEB789 /* Project object */;
+}
